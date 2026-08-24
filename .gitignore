@@ -1,0 +1,75 @@
+# =========================================================================
+# Maven Build Artifacts
+# =========================================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring the Maven Wrapper jar if you use it to standardise builds
+!/.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================================
+# Java Compiled Classes & Logs
+# =========================================================================
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Package files (Only ignore if generated outside the maven target folder)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================================================================
+# IDE Settings (IntelliJ, Eclipse, NetBeans)
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+*.factorypath
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
