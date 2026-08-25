@@ -11,6 +11,12 @@ package com.lms;
 public class Batch5_Library_Management {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        double a = 10;
+        double b = 5;
+        double result;
+        result = a*b/2;
+        System.out.println("Result :" + result);
+        
+        
     }
 }
