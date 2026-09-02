@@ -20,13 +20,19 @@ public class Login {
         return a-b;
     }
     
+    public int multiplication(int a, int b) {
+         return a*b;
+    }
+    
     public static void main(String []args) {
         Login add = new Login();
         Login sub = new Login();
-        
+        Login mul = new Login();
         int result = add.addition();
         int subResult = sub.substration(3, 0);
-        System.out.println("Addition Result" + result);
-        System.out.println("Substration Result" + subResult);
+        int mulResult = mul.multiplication(3, 2);
+        System.out.println("Addition Result: " + result);
+        System.out.println("Substration Result: " + subResult);
+        System.out.println("Multiplication Result  : " + mulResult);
     }
 }
